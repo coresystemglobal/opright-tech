@@ -35,7 +35,7 @@ function HeroSection() {
         <div className="max-w-3xl">
           <Animate variant="fadeUp">
             <p className="eyebrow text-action-primary mb-[var(--spacing-4)]">
-              About Opright
+              About Opright Technologies
             </p>
           </Animate>
 

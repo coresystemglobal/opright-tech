@@ -116,7 +116,7 @@ function ProductsSection() {
   );
 }
 
-/* ── Why Opright ── */
+/* ── Why Opright Technologies ── */
 
 const reasons = [
   {
@@ -166,7 +166,7 @@ function WhyOprightSection() {
   return (
     <Section className="bg-neutral-0">
       <SectionHeader
-        eyebrow="Why Opright"
+        eyebrow="Why Opright Technologies"
         title="Software that does not pretend Africa is Silicon Valley."
         description="We build for the context you operate in. Estate gates that lose power, schools that bill per term in Naira, hospitals that handle HMO claims, and delivery trucks navigating Lagos traffic."
       />

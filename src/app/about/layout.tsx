@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Opright | Built for How Africa Actually Works",
+  title: "About Opright Technologies | Built for How Africa Actually Works",
   description:
     "Core System Global Limited builds enterprise software for Nigerian businesses. Estate management, school administration, healthcare, and logistics. Lagos-based, Africa-focused.",
   keywords: [
