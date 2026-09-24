@@ -35,7 +35,7 @@ function HeroSection() {
         <div className="max-w-3xl mx-auto text-center">
           <Animate variant="fadeUp">
             <p className="eyebrow text-action-primary mb-[var(--spacing-4)]">
-              By Core System Global Limited
+              {/* By Core System Global Limited */}
             </p>
           </Animate>
 

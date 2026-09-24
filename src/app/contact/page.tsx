@@ -185,7 +185,7 @@ function CalEmbedSection() {
           <p className="text-text-secondary leading-relaxed">
             We will walk you through the product using your own setup. Bring
             your estate layout, school structure, or logistics flow, and we
-            will show you exactly how Opright handles it.
+            will show you exactly how Opright Technologies handles it.
           </p>
         </Animate>
       </div>
@@ -196,7 +196,7 @@ function CalEmbedSection() {
             src="https://cal.com/opright?embed=true&theme=light"
             className="w-full border-0"
             style={{ height: "680px", minHeight: "500px" }}
-            title="Book a demo with Opright"
+            title="Book a demo with Opright Technologies"
             loading="lazy"
           />
         </div>
@@ -211,7 +211,7 @@ const faqs = [
   {
     question: "How long is the demo?",
     answer:
-      "20 minutes. We will use your actual estate or school data (or sample data that mirrors your setup) so you see exactly how Opright works in your context, not a generic walkthrough.",
+      "20 minutes. We will use your actual estate or school data (or sample data that mirrors your setup) so you see exactly how Opright Technologies products works in your context, not a generic walkthrough.",
   },
   {
     question: "Do I need to prepare anything?",
@@ -226,7 +226,7 @@ const faqs = [
   {
     question: "What if I manage multiple verticals?",
     answer:
-      "That is exactly what the Opright platform is designed for. One login, one bill, one support team. If you run estates and a school, you get a unified dashboard without needing separate vendors.",
+      "That is exactly what the Opright Technologies platform is designed for. One login, one bill, one support team. If you run estates and a school, you get a unified dashboard without needing separate vendors.",
   },
   {
     question: "Where is my data stored?",

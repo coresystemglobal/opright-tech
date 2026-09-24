@@ -45,7 +45,7 @@ export function Navbar() {
               </span>
             </div>
             <span className="text-lg font-semibold font-[family-name:var(--font-display)] text-text-primary">
-              Opright
+              Opright Technologies
             </span>
           </Link>
 

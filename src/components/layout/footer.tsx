@@ -30,7 +30,7 @@ export function Footer() {
                   </span>
                 </div>
                 <span className="text-lg font-semibold font-[family-name:var(--font-display)] text-neutral-0">
-                  Opright
+                  Opright Technologies
                 </span>
               </Link>
               <p className="text-sm text-text-inverse-muted leading-relaxed max-w-xs mb-[var(--spacing-5)]">
