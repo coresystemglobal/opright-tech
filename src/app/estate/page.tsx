@@ -4,6 +4,7 @@ import { Section, SectionHeader } from "@/components/ui/section";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Animate, StaggerContainer, StaggerItem } from "@/components/ui/animate";
+import { OnboardingSection } from "@/components/onboarding-section";
 import { ESTATE_PRICING, SITE_CONFIG } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
@@ -15,6 +16,7 @@ export default function EstatePage() {
       <HowItWorks />
       <MobileAppSection />
       <PricingSection />
+      <OnboardingSection />
       <EstateCTA />
     </>
   );
@@ -66,7 +68,7 @@ function EstateHero() {
               </div>
             </Animate>
             <Animate variant="fadeUp" delay={0.4}>
-              <div className="flex items-center gap-6 mt-[var(--spacing-6)] text-sm text-text-muted">
+              <div className="flex flex-wrap items-center gap-x-6 gap-y-2 mt-[var(--spacing-6)] text-sm text-text-muted">
                 <span className="flex items-center gap-1.5">
                   <svg className="h-4 w-4 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
@@ -78,6 +80,12 @@ function EstateHero() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   No credit card required
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <svg className="h-4 w-4 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Free onboarding
                 </span>
                 <span className="flex items-center gap-1.5">
                   <svg className="h-4 w-4 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -291,7 +299,7 @@ function MobileAppSection() {
               In every pocket at the gate.
             </h2>
             <p className="text-text-secondary leading-relaxed mb-[var(--spacing-6)]">
-              Residents pre-register visitors and share QR codes from their phone.
+              Residents pre-register visitors and share access codes from their phone.
               Guards scan and verify without paperwork. Estate managers see real-time
               dashboards from anywhere. Available on iOS and Android.
             </p>
@@ -342,7 +350,7 @@ function PricingSection() {
       <SectionHeader
         eyebrow="Pricing"
         title="Transparent. In Naira. No surprises."
-        description="Every plan includes mobile apps for residents and guards, email support, and a 14-day free trial. Cancel anytime."
+        description="Every plan includes free onboarding, mobile apps for residents and guards, email support, and a 14-day free trial. Cancel anytime."
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[var(--spacing-5)]">
