@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Opright Schools | School Management Software",
   description:
-    "Student enrollment, attendance, gradebook, fee collection, parent portal, and CBT exam management for Nigerian schools. From N1,000/student/month.",
+    "Student enrollment, attendance, gradebook, fee collection, parent portal, and CBT exam management for Nigerian schools. From N1,000/student/term.",
   keywords: [
     "school management software Nigeria",
     "school ERP Lagos",
