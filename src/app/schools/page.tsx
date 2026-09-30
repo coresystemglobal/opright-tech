@@ -46,7 +46,7 @@ const pricing = [
   {
     name: "Starter",
     price: "1,000",
-    period: "/student/month",
+    period: "/student/term",
     description: "For schools getting started with digital administration. Billed per term.",
     features: [
       "Up to 200 students",
@@ -62,7 +62,7 @@ const pricing = [
   {
     name: "Professional",
     price: "1,000",
-    period: "/student/month",
+    period: "/student/term",
     description: "Full feature set for established schools. Volume pricing kicks in above 200 students.",
     features: [
       "Unlimited students",
@@ -87,7 +87,6 @@ const pricing = [
       "Custom branding per school",
       "API access",
       "Dedicated account manager",
-      "Training and onboarding",
     ],
     cta: "Contact sales",
     popular: false,
@@ -104,7 +103,7 @@ export default function SchoolsPage() {
       status="beta"
       features={features}
       pricing={pricing}
-      pricingNote="Per-student pricing means you pay only for active enrollment. Billed per term, not per month. No setup fees."
+      pricingNote="Per-student pricing means you pay only for active enrollment. Billed per term, not per month. No setup fees, and onboarding is free."
       ctaTitle="Ready to digitize your school?"
       ctaDescription="Join the beta and get your first term free. We will migrate your student data and train your staff."
       ctaLabel="Join the beta"

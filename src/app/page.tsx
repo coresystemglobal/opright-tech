@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { StatusBadge } from "@/components/ui/badge";
 import { Animate, StaggerContainer, StaggerItem } from "@/components/ui/animate";
+import { OnboardingSection } from "@/components/onboarding-section";
 import { PRODUCTS, SITE_CONFIG } from "@/lib/constants";
 
 export default function HomePage() {
@@ -15,6 +16,7 @@ export default function HomePage() {
       <ProductsSection />
       <WhyOprightSection />
       <StatsSection />
+      <OnboardingSection />
       <CTASection />
     </>
   );
