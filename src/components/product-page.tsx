@@ -4,6 +4,7 @@ import { Section, SectionHeader } from "@/components/ui/section";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Animate, StaggerContainer, StaggerItem } from "@/components/ui/animate";
+import { OnboardingSection } from "@/components/onboarding-section";
 import { SITE_CONFIG } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
@@ -191,6 +192,8 @@ export function ProductPageTemplate({
           </div>
         </Section>
       )}
+
+      <OnboardingSection className={pricing ? undefined : "bg-neutral-0"} />
 
       {/* CTA */}
       <Section>

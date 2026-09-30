@@ -161,7 +161,6 @@ export const ESTATE_PRICING = [
       "SLA guarantees",
       "On-premise deployment option",
       "Dedicated infrastructure",
-      "Training and onboarding",
     ],
     cta: "Contact sales",
     popular: false,
