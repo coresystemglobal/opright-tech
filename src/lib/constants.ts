@@ -105,7 +105,7 @@ export const ESTATE_PRICING = [
     description: "For small estates and gated communities getting started with digital access management.",
     features: [
       "Up to 50 units",
-      "Visitor management with QR codes",
+      "Visitor management with access codes",
       "Resident directory",
       "Basic gate access control",
       "Estate announcements",

@@ -49,7 +49,7 @@ function EstateHero() {
             </Animate>
             <Animate variant="fadeUp" delay={0.2}>
               <p className="text-lg text-text-secondary leading-relaxed mb-[var(--spacing-6)]">
-                Visitor QR codes, gate access control, service charge billing, facility booking,
+                Visitor access/QR codes, gate access control, service charge billing, facility booking,
                 and security patrol tracking. One platform for estate managers, security guards,
                 and residents. Starting at &#x20A6;40,000/month.
               </p>
@@ -250,7 +250,7 @@ const steps = [
   {
     step: "03",
     title: "Go live at the gate",
-    description: "Visitors get QR codes, guards scan to verify, and every entry is logged automatically. Your estate security just got an audit trail.",
+    description: "Visitors get access/QR codes, guards scan to verify, and every entry is logged automatically. Your estate security just got an audit trail.",
   },
 ];
 

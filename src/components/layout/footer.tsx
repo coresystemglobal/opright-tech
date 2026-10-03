@@ -74,7 +74,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Core System Global Limited. All rights reserved.
           </p>
           <p className="text-xs text-text-inverse-muted">
-            RC Number: Pending &middot; Lagos, Nigeria
+            RC Number: 9399829 &middot; Lagos, Nigeria
           </p>
         </div>
       </div>
