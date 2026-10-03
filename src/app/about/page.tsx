@@ -146,9 +146,9 @@ const principles = [
   },
   {
     number: "05",
-    title: "Shared infrastructure, independent products",
+    title: "Independent products, one standard",
     description:
-      "Authentication, billing, notifications, and analytics run on shared infrastructure across all verticals. That means one login for a facility management company running estates and schools, without any product making compromises for another.",
+      "Each product runs on its own, with its own data and its own release cycle, so it scales as that side of your business grows and a heavy period in one never slows another. What they share is the standard they are built to: the same security model, the same Naira pricing, and the same NDPA-compliant data handling.",
   },
   {
     number: "06",
@@ -194,8 +194,8 @@ function ProductOverviewSection() {
     <Section>
       <SectionHeader
         eyebrow="Our products"
-        title="Four verticals. One platform."
-        description="Each product targets a specific industry vertical in the Nigerian market. They share infrastructure; they do not share compromises."
+        title="Four verticals. Four products."
+        description="Each product targets a specific industry vertical in the Nigerian market. Each one stands alone and scales on its own, built to the same standard."
       />
 
       <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 gap-[var(--spacing-5)]">

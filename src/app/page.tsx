@@ -83,7 +83,7 @@ function ProductsSection() {
       <SectionHeader
         eyebrow="Products"
         title="One platform, four verticals."
-        description="Each product is built from the ground up for its industry, not a generic tool with a new skin. They share infrastructure; they do not share compromises."
+        description="Each product is built from the ground up for its industry, not a generic tool with a new skin. Each one runs independently, so it scales with your demand instead of waiting on the others."
       />
 
       <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-[var(--spacing-5)]">
@@ -143,9 +143,9 @@ const reasons = [
     ),
   },
   {
-    title: "One login, one bill",
+    title: "Independent, and built to scale",
     description:
-      "Facility management companies running three estates and two schools get one dashboard, one invoice, and one support team. Not four separate vendors with four separate problems.",
+      "Each product runs on its own, so you can start with one vertical and add another when you are ready. Each scales as demand arises, and you deal with one company and one support team across all of them.",
     icon: (
       <svg className="h-6 w-6 text-action-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />

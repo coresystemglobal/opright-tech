@@ -226,7 +226,7 @@ const faqs = [
   {
     question: "What if I manage multiple verticals?",
     answer:
-      "That is exactly what the Opright Technologies platform is designed for. One login, one bill, one support team. If you run estates and a school, you get a unified dashboard without needing separate vendors.",
+      "You can run as many as you need, and each one is set up separately. The products are independent rather than sitting behind a single shared account, so each scales with its own demand and a busy enrolment term at your school has no effect on your estate gate. You still work with one company and one support team that knows all four.",
   },
   {
     question: "Where is my data stored?",
