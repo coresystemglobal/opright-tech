@@ -193,7 +193,7 @@ function CalEmbedSection() {
       <Animate variant="fadeUp" delay={0.1}>
         <div className="max-w-4xl mx-auto rounded-[var(--radius-lg)] border border-border-default bg-bg-surface overflow-hidden shadow-sm">
           <iframe
-            src="https://cal.com/opright?embed=true&theme=light"
+            src="https://cal.com/opright-tech/demo?embed=true&theme=light"
             className="w-full border-0"
             style={{ height: "680px", minHeight: "500px" }}
             title="Book a demo with Opright Technologies"

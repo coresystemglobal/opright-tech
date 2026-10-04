@@ -7,7 +7,7 @@ export const SITE_CONFIG = {
   description:
     "Estate management, school administration, healthcare systems, and logistics solutions. Real tools, real numbers, real infrastructure.",
   email: "hello@opright.co",
-  demoUrl: "https://cal.com/opright", // Cal.com booking link
+  demoUrl: "https://cal.com/opright-tech/demo",
 } as const;
 
 export type Product = {
